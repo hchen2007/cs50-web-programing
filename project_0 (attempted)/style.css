@@ -1,0 +1,95 @@
+#Image{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+}
+
+.search{
+    display: flex;
+    border: 0.5px white;
+    border-radius: 24px;
+    z-index: 2.5;
+    height:45px;
+    margin: 0 auto;
+    width: 480px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#header{
+    position: fixed;
+    top:0 ;
+    min-height: 40px;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+#header-img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav > ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.main{
+    margin-top: 70px;
+}
+
+.aref{
+    color: black;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+#tiny{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+#title-advanced{
+    color: darkred;
+    margin-top:20 px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.find-pages{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.space{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.advanced-input{
+    text-align: left;
+    width: 40%
+}
+
+.text-advanced{
+    width: 200px;
+    justify-content: cetner;
+}
+
+#space-button{
+    margin-right: 50px;
+}
